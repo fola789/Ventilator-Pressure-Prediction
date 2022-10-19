@@ -1,7 +1,7 @@
 # Google Brain - Ventilator Pressure Prediction
 The development a deep learning model in order to simulate a ventilator connected to a sedated patient's lung and predict the pressure of ventilators given some parameters and a control variable. The [competition](https://www.kaggle.com/c/ventilator-pressure-prediction/overview/description) was organized by Princeton University and & Google Brain at the Kaggle platform.
 
-![Ventilator](https://storage.googleapis.com/kaggle-competitions/kaggle/29594/logos/header.png?t=2021-07-29-12-44-09)
+![Ventilator](images/header.jpg)
 # Summary
 What do doctors do when a patient has trouble breathing? They use a ventilator to pump oxygen into a sedated patient's lungs via a tube in the windpipe. But mechanical ventilation is a clinician-intensive procedure, a limitation that was prominently on display during the early days of the COVID-19 pandemic. At the same time, developing new methods for controlling mechanical ventilators is prohibitively expensive, even before reaching clinical trials. High-quality simulators could reduce this barrier.
 
