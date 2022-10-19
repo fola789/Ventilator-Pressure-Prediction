@@ -9,7 +9,7 @@ Current simulators are trained as an ensemble, where each model simulates a sing
 
 Neural networks and deep learning can better generalize across lungs with varying characteristics than the current industry standard of PID controllers.
 
-![Ventilator](Images/VentilatorImage.jpg)
+![Ventilator](images/VentilatorImage.jpg)
 
 # Dataset
 Each time series represents an approximately 3-second breath. The files are organized such that each row is a time step in a breath and gives the two control signals, the resulting airway pressure, and relevant attributes of the lung, described below.
