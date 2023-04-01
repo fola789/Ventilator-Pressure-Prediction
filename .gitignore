@@ -33,3 +33,4 @@ train.csv
 *.exe
 *.out
 *.app
+sample_submission.csv
