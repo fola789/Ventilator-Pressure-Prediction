@@ -9,9 +9,6 @@ Current simulators are trained as an ensemble, where each model simulates a sing
 
 Neural networks and deep learning can better generalize across lungs with varying characteristics than the current industry standard of PID controllers.
 
-
-![Ventilator](https://github.com/fola789/Ventilator-Pressure-Prediction/blob/main/images/header.png)
-
 # Dataset
 Each time series represents an approximately 3-second breath. The files are organized such that each row is a time step in a breath and gives the two control signals, the resulting airway pressure, and relevant attributes of the lung, described below.
 
@@ -29,7 +26,8 @@ Each time series represents an approximately 3-second breath. The files are orga
 + u_out - the control input for the exploratory solenoid valve. Either 0 or 1.
 + pressure - the airway pressure measured in the respiratory circuit, measured in cmH2O
 
-![Ventilator](https://github.com/fola789/Ventilator-Pressure-Prediction/blob/main/images/breathSamples.png)
+![BreathSamples](https://github.com/fola789/Ventilator-Pressure-Prediction/blob/main/images/breathSamples.png)
+
 # Data Summary
 From the data we can see that we are provided with the following:
 + 75,450 non-contiguous cycles in the Training-Set
